@@ -1,0 +1,70 @@
+:root {
+    --titleColor: black;
+    --mainDivColor: whiteSmoke;
+    --handleListeColor: seashell;
+}
+
+body {
+    background-color: var(--mainDivColor);
+}
+
+
+#mainDiv {
+    background-color: var(--mainDivColor);
+    width: 100%;
+}
+
+#handleListeDiv {
+    background-color: var(--handleListeColor);
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#listeDiv {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.vareListeClass {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.vareTittel {
+    text-align: start;
+    padding-left: 1vw;
+    flex: 8;
+    width: 80%;
+    word-wrap: break-word;
+    font-size: 1.5em;
+}
+
+
+.vareCheckbox {
+    flex: 2;
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.vareCheckbox * {
+    width: 50%;
+    height: 50%;
+}
+
+.vareDeler {
+    width: 90%;
+}
+
+/* .check{
+    flex-grow: 10;
+} */
